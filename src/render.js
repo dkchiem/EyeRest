@@ -22,7 +22,7 @@ function work() {
     started = true;
     startBtn.style.display = "none";
   }
-  timer(10, () => {
+  timer(1200, () => {
     question();
   });
 }
