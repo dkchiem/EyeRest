@@ -1,4 +1,4 @@
-# EyeRest
+# 👁 EyeRest
 
 > This is the source code of this project.
 

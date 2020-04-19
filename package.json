@@ -43,12 +43,25 @@
           "name": "@electron-forge/maker-rpm",
           "config": {}
         }
+      ],
+      "publishers": [
+        {
+          "name": "@electron-forge/publisher-github",
+          "config": {
+            "repository": {
+              "owner": "Doudou8",
+              "name": "EyeRest"
+            },
+            "prerelease": true
+          }
+        }
       ]
     }
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
-    "node-notifier": "^7.0.0"
+    "node-notifier": "^7.0.0",
+    "update-electron-app": "^1.5.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.50",
