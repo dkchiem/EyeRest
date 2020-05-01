@@ -10,7 +10,8 @@ This desktop application can help you make regular pauses for your eyes.
 - Notification to alert you
 - Countdown timer in the application window
 
-<img src="screenshot.png" height="400" />
+<img src="screenshot1.png" height="400" />
+<img src="screenshot2.png" height="400" />
 
 ## Author
 
