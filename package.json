@@ -54,7 +54,8 @@
               "owner": "Doudou8",
               "name": "EyeRest"
             },
-            "prerelease": false
+            "prerelease": false,
+            "draft": false
           }
         }
       ]
