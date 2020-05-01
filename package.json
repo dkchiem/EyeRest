@@ -46,6 +46,9 @@
       "publishers": [
         {
           "name": "@electron-forge/publisher-github",
+          "platforms": [
+            "darwin"
+          ],
           "config": {
             "repository": {
               "owner": "Doudou8",
