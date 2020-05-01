@@ -1,6 +1,6 @@
 {
   "name": "eyerest",
-  "productName": "eyerest",
+  "productName": "EyeRest",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -19,14 +19,13 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {
-        "icon": "src/assets/eye.png"
-      },
+      "forge": "./forge.config.js",
+      "packagerConfig": {},
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "eyerest"
+            "name": "EyeRest"
           }
         },
         {
@@ -42,6 +41,18 @@
         {
           "name": "@electron-forge/maker-rpm",
           "config": {}
+        }
+      ],
+      "publishers": [
+        {
+          "name": "@electron-forge/publisher-github",
+          "config": {
+            "repository": {
+              "owner": "Doudou8",
+              "name": "EyeRest"
+            },
+            "prerelease": true
+          }
         }
       ]
     }

@@ -10,14 +10,15 @@ if (require("electron-squirrel-startup")) {
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
+    backgroundColor: "#222831",
+    fullscreenable: false,
     height: 600,
     icon: "./assets/eye.png",
-    titleBarStyle: "hiddenInset",
-    backgroundColor: "#222831",
-    minWidth: 400,
     minHeight: 550,
+    minWidth: 300,
     title: "EyeRest",
+    titleBarStyle: "hiddenInset",
+    width: 400,
     webPreferences: {
       nodeIntegration: true,
       devTools: false,
