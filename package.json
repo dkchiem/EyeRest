@@ -7,8 +7,8 @@
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make",
-    "publish": "electron-forge publish",
+    "make": "electron-forge make --platform\"darwin\"",
+    "publish": "electron-forge publish --platform\"darwin\"",
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
