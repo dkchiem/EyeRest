@@ -1,7 +1,7 @@
 {
   "name": "eyerest",
   "productName": "EyeRest",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "My Electron application description",
   "main": "src/index.js",
   "scripts": {
@@ -19,8 +19,9 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "forge": "./forge.config.js",
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "src/assets/AppIcon.icns"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",

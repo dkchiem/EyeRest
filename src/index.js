@@ -13,7 +13,6 @@ const createWindow = () => {
     backgroundColor: "#222831",
     fullscreenable: false,
     height: 600,
-    icon: "./assets/eye.png",
     minHeight: 550,
     minWidth: 300,
     title: "EyeRest",
