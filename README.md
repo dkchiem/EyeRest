@@ -15,7 +15,7 @@ This desktop application can help you make regular pauses for your eyes with the
 1. Go to the [releases](https://github.com/Doudou8/EyeRest/releases) and download the latest release
 2. Unzip the .zip file
 3. Drag the application to your Applications folder
-4. Use EyeRest
+4. Use EyeRest!
 
 ## Features
 
