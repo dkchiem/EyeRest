@@ -16,7 +16,7 @@
     "name": "Vu Dang Khoa Chiem",
     "email": "cvdkhoa@gmail.com"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "config": {
     "forge": {
       "packagerConfig": {

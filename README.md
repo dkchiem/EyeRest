@@ -31,4 +31,4 @@ This desktop application can help you make regular pauses for your eyes with the
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the Apache license 2.0 License - see the [LICENSE](LICENSE) file for details
