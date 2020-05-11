@@ -1,7 +1,5 @@
 <br>
-<div style="display: flex;align-items: center;justify-content: center;">
-<img src="banner.png" style="max-height: 150px"/>
-</div>
+<img src="banner.png" height="150"/>
 <br>
 
 ## What is EyeRest?
@@ -25,7 +23,7 @@ EyeRest is a desktop application that can help you make regular pauses for your 
 - Notification to alert you
 - Countdown timer in the application window
 
-<img src="screenshot.png" style="max-height: 400px" />
+<img src="screenshot.png" height="400" />
 
 ## Author
 
