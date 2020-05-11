@@ -1,5 +1,7 @@
 <br>
+<a href="https://github.com/Doudou8/EyeRest">
 <img src="banner.png" height="150"/>
+</a>
 <br>
 
 ## What is EyeRest?
