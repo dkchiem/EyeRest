@@ -1,14 +1,16 @@
-# 👁 EyeRest
+<br>
+<div style="display: flex;align-items: center;justify-content: center;">
+<img src="banner.png" style="max-height: 150px"/>
+</div>
+<br>
 
-> This is the source code of this project. This application has only been tested on **macOS Catalina Version 10.15.4**.
+## What is EyeRest?
 
-This desktop application can help you make regular pauses for your eyes with the 20-20-20 rule.
-
----
+EyeRest is a desktop application that can help you make regular pauses for your eyes with the 20-20-20 rule.
 
 ## Installation
 
-> The application has only been compiled for macOS.
+> This application has only been tested on **macOS Catalina Version 10.15.4**. Therefore, it has only been compiled for macOS.
 
 ### macOS
 
@@ -23,7 +25,7 @@ This desktop application can help you make regular pauses for your eyes with the
 - Notification to alert you
 - Countdown timer in the application window
 
-<img src="screenshot.png" height="400" />
+<img src="screenshot.png" style="max-height: 400px" />
 
 ## Author
 
