@@ -1,11 +1,11 @@
-const { app, BrowserWindow, Menu } = require("electron");
-const path = require("path");
-const menu = require("./electron/menu");
+const { app, BrowserWindow, Menu } = require('electron');
+const path = require('path');
+const menu = require('./electron/menu');
 
 Menu.setApplicationMenu(menu);
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
-if (require("electron-squirrel-startup")) {
+if (require('electron-squirrel-startup')) {
   // eslint-disable-line global-require
   app.quit();
 }
@@ -17,8 +17,8 @@ const createWindow = () => {
     height: 600,
     minHeight: 550,
     minWidth: 300,
-    title: "EyeRest",
-    titleBarStyle: "hiddenInset",
+    title: 'EyeRest',
+    titleBarStyle: 'hiddenInset',
     width: 400,
     webPreferences: {
       nodeIntegration: true,
@@ -27,7 +27,7 @@ const createWindow = () => {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadFile(path.join(__dirname, "index.html"));
+  mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
@@ -36,18 +36,18 @@ const createWindow = () => {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.on("ready", createWindow);
+app.on('ready', createWindow);
 
 // Quit when all windows are closed.
-app.on("window-all-closed", () => {
+app.on('window-all-closed', () => {
   // On OS X it is common for applications and their menu bar
   // to stay active until the user quits explicitly with Cmd + Q
-  if (process.platform !== "darwin") {
+  if (process.platform !== 'darwin') {
     app.quit();
   }
 });
 
-app.on("activate", () => {
+app.on('activate', () => {
   // On OS X it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
   if (BrowserWindow.getAllWindows().length === 0) {
